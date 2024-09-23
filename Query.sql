@@ -5,15 +5,15 @@ SELECT * FROM Filmes
 SELECT * FROM Filmes 
 ORDER BY Ano
 
---Objetivo 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duração
+--Objetivo 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duraÃ§Ã£o
 SELECT * FROM Filmes
 WHERE Nome = 'De Volta para o Futuro'
 
---Objetivo 4 - Buscar os filmes lançados em 1997
+--Objetivo 4 - Buscar os filmes lanÃ§ados em 1997
 SELECT * FROM Filmes
 WHERE Ano = 1997
 
---Objetivo 5 - Buscar os filmes lançados APÓS o ano 2000
+--Objetivo 5 - Buscar os filmes lanÃ§ados APÃ“S o ano 2000
 SELECT * FROM Filmes
 WHERE Ano > 2000
 ORDER BY Ano
